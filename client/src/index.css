@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  height: 100vh;
+  font-family: var(--font);
+  background-color: var(--background-color);
+  overflow-x: hidden;
+}
+
+a {
+  appearance: none;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  color: var(--secondary-color);
+}
+
+input {
+    appearance: none;
+    outline: none;
+    background: none;
+    border: none;
+    display: block;
+    font: inherit;
+}
+
+button {
+    appearance: none;
+    outline: none;
+    background: none;
+    border: none;
+    display: block;
+    font: inherit;
+    
+}
+
+li {
+  list-style-type: none;
+}

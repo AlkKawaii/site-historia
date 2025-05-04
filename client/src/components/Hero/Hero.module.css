@@ -1,0 +1,48 @@
+.hero {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  gap: 5vw;
+  padding: 5vh 7vw;
+  margin-bottom: 5vh;
+}
+
+.texts {
+  flex: 1;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 6vh;
+}
+
+.images {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 7vw;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.2vw;
+}
+
+.images img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+
+.arrow {
+  width: 100vw;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  bottom: 10vh;
+  left: 0;
+}

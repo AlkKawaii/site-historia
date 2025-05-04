@@ -1,0 +1,29 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: -10em;
+    height: 64px;
+    width: 100%;
+    padding: 1em;
+    background-color: color-mix(in srgb, var(--background-color) 80%, rgba(248, 250, 255, 0.5));
+    -webkit-backdrop-filter: blur(0.75em);
+    backdrop-filter: blur(0.75em);
+    box-shadow: var(--box-shadow);
+    transition: top 0.5s;
+    z-index: 100000;
+    & div {
+        display: flex;
+        align-items: baseline;
+        gap: 0.5em;
+        font-size: 2em;
+        & * {
+            cursor: pointer;
+        }
+    }
+}
+
+.header.show {
+    top: 0;
+}
