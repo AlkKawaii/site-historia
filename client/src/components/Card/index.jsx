@@ -1,4 +1,5 @@
 import styles from "./Card.module.css";
+import Button from "../Button";
 
 function Card({ imgUrl, title, description, textButton, onClick }) {
   return (
@@ -6,7 +7,7 @@ function Card({ imgUrl, title, description, textButton, onClick }) {
       <img src={imgUrl} alt="" />
       <h2>{title}</h2>
       <p>{description}</p>
-      <button onClick={onClick}>{textButton}</button>
+      <Button onClick={onClick}>{textButton}</Button>
     </div>
   );
 }

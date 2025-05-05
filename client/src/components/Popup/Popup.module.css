@@ -1,0 +1,33 @@
+.popup {
+    max-width: 80%;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: white;
+    position: relative;
+}
+.popupContainer {
+    display: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.close {
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    background-color: red;
+    color: white;
+    font-weight: 900;
+    padding: 7px 14px;
+    border-radius: 50%;
+    top: -15px;
+    right: -15px;
+}
