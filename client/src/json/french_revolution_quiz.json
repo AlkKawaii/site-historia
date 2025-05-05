@@ -1,0 +1,212 @@
+[
+  {
+    "id": 0,
+    "category_id": 0,
+    "quiz_image_url": "https://static.todamateria.com.br/upload/ba/st/bastilha-cke.jpg",
+    "quiz_name": "A Queda da Bastilha e o Início da Revolução",
+    "categories": ["História", "Revolução Francesa"],
+    "short_description": "Teste seus conhecimentos sobre os principais eventos e personagens do início da Revolução Francesa",
+    "content": [
+      {
+        "question_id": 1,
+        "question": "Em que ano começou oficialmente a Revolução Francesa?",
+        "options": ["1769", "1789", "1799", "1804"],
+        "answer": "1789"
+      },
+      {
+        "question_id": 2,
+        "question": "Qual evento é considerado o marco inicial da Revolução Francesa?",
+        "options": ["A execução de Luís XVI", "A Queda da Bastilha", "O Juramento do Jogo da Péla", "A Marcha das Mulheres a Versalhes"],
+        "answer": "A Queda da Bastilha"
+      },
+      {
+        "question_id": 3,
+        "question": "Qual era o sistema social vigente na França antes da Revolução?",
+        "options": ["Democracia", "Antigo Regime", "República", "Estado Soviético"],
+        "answer": "Antigo Regime"
+      },
+      {
+        "question_id": 4,
+        "question": "Quem era o rei da França quando a revolução começou?",
+        "options": ["Luís XIV", "Luís XV", "Luís XVI", "Napoleão Bonaparte"],
+        "answer": "Luís XVI"
+      },
+      {
+        "question_id": 5,
+        "question": "Qual era o nome dado ao grupo político mais radical durante a Revolução Francesa?",
+        "options": ["Girondinos", "Jacobinos", "Monarquistas", "Bonapartistas"],
+        "answer": "Jacobinos"
+      },
+      {
+        "question_id": 6,
+        "question": "Como era chamada a rainha francesa, esposa de Luís XVI?",
+        "options": ["Catarina de Médici", "Maria Antonieta", "Joana d'Arc", "Isabel de Valois"],
+        "answer": "Maria Antonieta"
+      },
+      {
+        "question_id": 7,
+        "question": "O que era o 'Terceiro Estado' na sociedade francesa pré-revolucionária?",
+        "options": ["A nobreza", "O clero", "A burguesia e o povo comum", "O exército"],
+        "answer": "A burguesia e o povo comum"
+      },
+      {
+        "question_id": 8,
+        "question": "Qual documento importante foi escrito em 1789, inspirado na Independência Americana?",
+        "options": ["Código Napoleônico", "Declaração dos Direitos do Homem e do Cidadão", "Constituição Francesa", "Tratado de Versalhes"],
+        "answer": "Declaração dos Direitos do Homem e do Cidadão"
+      },
+      {
+        "question_id": 9,
+        "question": "Qual líder revolucionário ficou conhecido como 'O Incorruptível'?",
+        "options": ["Jean-Paul Marat", "Georges Danton", "Maximilien Robespierre", "Conde de Mirabeau"],
+        "answer": "Maximilien Robespierre"
+      },
+      {
+        "question_id": 10,
+        "question": "Qual crise contribuiu significativamente para o início da Revolução Francesa?",
+        "options": ["Crise econômica e fiscal", "Invasão estrangeira", "Epidemia de peste", "Conflito religioso"],
+        "answer": "Crise econômica e fiscal"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "category_id": 1,
+    "quiz_image_url": "https://imgs.jusbr.com/publications/images/c50717b417f48d45607fbb586221edc1",
+    "quiz_name": "O Terror e o Fim da Revolução Francesa",
+    "categories": ["História", "Revolução Francesa"],
+    "short_description": "Desafie seus conhecimentos sobre o Período do Terror e as consequências da Revolução Francesa",
+    "content": [
+      {
+        "question_id": 1,
+        "question": "O que foi o 'Período do Terror' durante a Revolução Francesa?",
+        "options": ["Uma peça de teatro popular", "Um período de extrema violência e execuções", "Uma revolta camponesa", "Uma crise monetária"],
+        "answer": "Um período de extrema violência e execuções"
+      },
+      {
+        "question_id": 2,
+        "question": "Que instrumento se tornou símbolo das execuções durante a Revolução?",
+        "options": ["Forca", "Guilhotina", "Espada", "Fuzil"],
+        "answer": "Guilhotina"
+      },
+      {
+        "question_id": 3,
+        "question": "Como morreu Maximilien Robespierre?",
+        "options": ["Envenenado", "Exilado", "Guilhotinado", "Morte natural"],
+        "answer": "Guilhotinado"
+      },
+      {
+        "question_id": 4,
+        "question": "Que general posteriormente assumiu o poder na França após a Revolução?",
+        "options": ["Marquês de Lafayette", "Rei Luís XVII", "Napoleão Bonaparte", "Charles de Gaulle"],
+        "answer": "Napoleão Bonaparte"
+      },
+      {
+        "question_id": 5,
+        "question": "Em que ano Napoleão Bonaparte se tornou Imperador da França?",
+        "options": ["1789", "1799", "1804", "1815"],
+        "answer": "1804"
+      },
+      {
+        "question_id": 6,
+        "question": "Qual evento marcou o fim do período revolucionário na França?",
+        "options": ["A queda da Bastilha", "O golpe do 18 Brumário", "A morte de Luís XVI", "O Congresso de Viena"],
+        "answer": "O golpe do 18 Brumário"
+      },
+      {
+        "question_id": 7,
+        "question": "O que aconteceu com Luís XVI durante a Revolução?",
+        "options": ["Foi exilado", "Abdicou voluntariamente", "Foi executado", "Permaneceu como monarca constitucional"],
+        "answer": "Foi executado"
+      },
+      {
+        "question_id": 8,
+        "question": "Qual destes países NÃO formou uma coalizão contra a França revolucionária?",
+        "options": ["Áustria", "Prússia", "Estados Unidos", "Grã-Bretanha"],
+        "answer": "Estados Unidos"
+      },
+      {
+        "question_id": 9,
+        "question": "O que era o 'Comitê de Salvação Pública'?",
+        "options": ["Um grupo de médicos revolucionários", "O principal órgão do governo durante o Terror", "Um tribunal exclusivo para a nobreza", "Uma organização de caridade para os pobres"],
+        "answer": "O principal órgão do governo durante o Terror"
+      },
+      {
+        "question_id": 10,
+        "question": "Qual destas não foi uma consequência da Revolução Francesa?",
+        "options": ["Fim do absolutismo na França", "Ascensão de ideais democráticos", "Estabelecimento permanente da República", "Difusão de ideais liberais pela Europa"],
+        "answer": "Estabelecimento permanente da República"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "category_id": 2,
+    "quiz_image_url": "https://aventurasnahistoria.com.br/media/_versions/legacy/2017/05/05/revolucao-francesa_widexl.png",
+    "quiz_name": "Ideais e Influências da Revolução Francesa",
+    "categories": ["História", "Revolução Francesa", "Filosofia Política"],
+    "short_description": "Explore os pensadores, ideais e o impacto cultural da Revolução Francesa",
+    "content": [
+      {
+        "question_id": 1,
+        "question": "Qual movimento intelectual influenciou fortemente a Revolução Francesa?",
+        "options": ["Romantismo", "Iluminismo", "Realismo", "Existencialismo"],
+        "answer": "Iluminismo"
+      },
+      {
+        "question_id": 2,
+        "question": "Qual filósofo escreveu 'Do Contrato Social', obra que influenciou os revolucionários?",
+        "options": ["Voltaire", "Montesquieu", "Jean-Jacques Rousseau", "Denis Diderot"],
+        "answer": "Jean-Jacques Rousseau"
+      },
+      {
+        "question_id": 3,
+        "question": "Qual era o lema da Revolução Francesa?",
+        "options": ["Paz, Pão e Terra", "Liberdade, Igualdade, Fraternidade", "Deus, Pátria, Família", "Ordem e Progresso"],
+        "answer": "Liberdade, Igualdade, Fraternidade"
+      },
+      {
+        "question_id": 4,
+        "question": "Como a Revolução Francesa modificou o calendário?",
+        "options": ["Criou um novo calendário revolucionário", "Adotou o calendário lunar", "Manteve o calendário gregoriano", "Implementou o calendário juliano"],
+        "answer": "Criou um novo calendário revolucionário"
+      },
+      {
+        "question_id": 5,
+        "question": "Como a Revolução afetou a relação entre Igreja e Estado na França?",
+        "options": ["Fortaleceu o poder da Igreja", "Promoveu o ateísmo estatal", "Separou Igreja e Estado", "Criou uma nova religião estatal"],
+        "answer": "Separou Igreja e Estado"
+      },
+      {
+        "question_id": 6,
+        "question": "Que símbolo de liberdade foi adotado durante a Revolução Francesa?",
+        "options": ["Leão", "Galo", "Barrete frígio", "Águia"],
+        "answer": "Barrete frígio"
+      },
+      {
+        "question_id": 7,
+        "question": "Como a Revolução Francesa influenciou as colônias francesas?",
+        "options": ["Não teve impacto nas colônias", "Levou à independência imediata de todas as colônias", "Inspirou revoltas como a Revolução Haitiana", "Fortaleceu o sistema colonial"],
+        "answer": "Inspirou revoltas como a Revolução Haitiana"
+      },
+      {
+        "question_id": 8,
+        "question": "Qual obra de arte retrata um importante episódio da Revolução Francesa, pintada por Eugène Delacroix?",
+        "options": ["Mona Lisa", "A Liberdade Guiando o Povo", "O Grito", "Guernica"],
+        "answer": "A Liberdade Guiando o Povo"
+      },
+      {
+        "question_id": 9,
+        "question": "Qual era a visão dos revolucionários sobre o papel das mulheres na sociedade?",
+        "options": ["Defendiam plena igualdade entre homens e mulheres", "Ignoraram completamente a questão feminina", "Tiveram visões contraditórias, com avanços e retrocessos", "Reforçaram o papel tradicional da mulher"],
+        "answer": "Tiveram visões contraditórias, com avanços e retrocessos"
+      },
+      {
+        "question_id": 10,
+        "question": "Qual destes países foi o primeiro a seguir o exemplo revolucionário francês?",
+        "options": ["Itália", "Haiti", "Espanha", "Rússia"],
+        "answer": "Haiti"
+      }
+    ]
+  }
+]

@@ -1,0 +1,19 @@
+.card {
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid #ccc;
+}
+
+.card img {
+    aspect-ratio: 16/9;
+    border-radius: 12px;
+}
+.card button {
+    align-self: flex-end;
+    margin: auto 5px 10px 5px;
+    cursor: pointer;
+}
