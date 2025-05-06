@@ -7,6 +7,8 @@ function Questions({ contentArr }) {
   const [points, setPoints] = useState(0);
   const [timeLeft, setTimeLeft] = useState(30);
   const [quizFinished, setQuizFinished] = useState(false);
+  const [wrongAnswers, setWrongAnswers] = useState([]);
+  const [rightAnswers, setRightAnswers] = useState([]);
 
   const handleTimeout = useCallback(() => {
     setPoints((prevPoints) => prevPoints - 1);
@@ -14,7 +16,7 @@ function Questions({ contentArr }) {
       setCurrentQuestion((prevQuestion) => prevQuestion + 1);
       setTimeLeft(30);
     } else {
-      setQuizFinished(true); 
+      setQuizFinished(true);
     }
   }, [currentQuestion, contentArr.length]);
 
@@ -34,28 +36,56 @@ function Questions({ contentArr }) {
   const handleQuestions = (e) => {
     if (e.target.innerText === contentArr[currentQuestion].answer) {
       setPoints((prevPoints) => prevPoints + 1);
+      setRightAnswers((prevRightAnswers) => [
+        ...prevRightAnswers,
+        {
+          question: contentArr[currentQuestion].question,
+          position: currentQuestion,
+        },
+      ]);
     } else {
       setPoints((prevPoints) => prevPoints - 1);
+      setWrongAnswers((prevWrongAnswers) => [
+        ...prevWrongAnswers,
+        {
+          question: contentArr[currentQuestion].question,
+          position: currentQuestion,
+        },
+      ]);
     }
     if (currentQuestion < contentArr.length - 1) {
       setCurrentQuestion((prevQuestion) => prevQuestion + 1);
       setTimeLeft(30);
     } else {
-      setQuizFinished(true); 
+      setQuizFinished(true);
     }
   };
 
   if (quizFinished) {
     return (
       <Popup>
-        <h2>Sua pontuação final: {points}</h2>
+        <h2>Pontuação final: {points}</h2>
+        <h2>Respostas erradas: </h2>
+        {wrongAnswers.map((wrongAnswer) => (
+          <div key={wrongAnswer.position} className={styles.wrongAnswer}>
+            <p>❌ - {wrongAnswer.question}</p>
+          </div>
+        ))}
+        <h2>Respostas certas: </h2>
+        {rightAnswers.map((rightAnswer) => (
+          <div key={rightAnswer.position} className={styles.rightAnswer}>
+            <p>✅ - {rightAnswer.question}</p>
+          </div>
+        ))}
       </Popup>
     );
   }
 
   return (
     <div className={styles.quizBox}>
-      <h2>{contentArr[currentQuestion].question}</h2>
+      <h2>
+        {currentQuestion + 1} - {contentArr[currentQuestion].question}
+      </h2>
       <img src="https://fibranetbrasil.com.br/images/duvidas.png" alt="" />
       <h3>
         Tempo restante: <strong>{timeLeft}</strong>

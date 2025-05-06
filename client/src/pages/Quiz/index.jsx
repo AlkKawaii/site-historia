@@ -22,12 +22,12 @@ function Quiz() {
     gsap.fromTo(
       countdownH1,
       { scale: 3, opacity: 0 },
-      { duration: 5, scale: 1, opacity: 1 }
+      { duration: 5, scale: 1, opacity: 1, ease: "power2.out" }
     );
     gsap.fromTo(
       countdownElement,
       { bottom: 0 },
-      { delay: 5, duration: 1.2, bottom: "100vh" }
+      { delay: 5, duration: 1.2, bottom: "100vh", ease: "power2.out" }
     );
 
     return () => {
