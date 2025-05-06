@@ -1,0 +1,40 @@
+.tlContainer {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+
+.arrow {
+    position: fixed;
+    z-index: 1000;
+    scale: 1.5;
+    transition: all 0.2s;
+    &:hover {
+        scale: 1.2;
+    }
+    &:active {
+        scale: 3;
+    }
+}
+
+.up {
+    top: 1em;
+    left: 50%;
+    &:active {
+        top: -0.5em;
+    }
+}
+
+.down {
+    bottom: 1em;
+    left: 50%;
+    &:active {
+        bottom: -0.5em;
+    }
+}

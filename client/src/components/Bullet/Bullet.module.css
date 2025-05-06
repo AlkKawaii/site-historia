@@ -1,0 +1,43 @@
+.bullet {
+    position: relative;
+    width: 2em;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    transition: all 0.1s;
+    &:hover {
+        scale: 1.2;
+    }
+    &:active {
+        scale: 0.9;
+    }
+    &::before {
+        content: '';
+        position: absolute;
+        inset: 0;
+        width: 0;
+        aspect-ratio: 1;
+        margin: auto;
+        background-color: var(--background-box-color);
+        border-radius: 50%;
+        transition: width 0.1s ease-in-out;
+    }
+    &.active::before {
+        width: 75%;
+    }
+}
+
+.name {
+    color: var(--font-color);
+    position: absolute;
+    inset-block: 0;
+    right: 3em;
+    width: max-content;
+    height: fit-content;
+    line-height: 100%;
+    margin: auto;
+    padding:0.5em;
+    border-radius: 0.5em;
+    background-color: var(--background-box-color);
+    text-transform: uppercase;
+    font-size: 0.8em;
+}
