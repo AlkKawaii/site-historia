@@ -15,13 +15,13 @@ export default function Home() {
           <TextArea
             title="Descubra a Revolução que mudou o mundo"
             content="A Revolução Francesa não foi apenas um momento da história da França — ela redefiniu o conceito de liberdade e justiça no mundo inteiro. Entre 1789 e 1799, o povo francês desafiou séculos de opressão e deu início a uma nova era. Conheça os ideais, os conflitos e os personagens por trás do levante que abalou a monarquia e inspirou gerações."
-            imgSrc="../public/img/home-image1.jpg"
+            imgSrc="/img/home-image1.jpg"
           />
           <TextArea
             direction="left"
             title="Por que estudar a Revolução Francesa hoje?"
             content="Mais do que um capítulo nos livros de história, a Revolução Francesa é um espelho para entender lutas sociais, participação política e os fundamentos da democracia moderna. Compreender seus eventos ajuda a enxergar as raízes de muitos debates atuais sobre direitos, poder e cidadania. Explore os acontecimentos, entenda os impactos e inspire-se com as vozes que marcaram esse período transformador."
-            imgSrc="../public/img/home-image2.jpg"
+            imgSrc="/img/home-image2.jpg"
           />
         </div>
         <SmallTextArea

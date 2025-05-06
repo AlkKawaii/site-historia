@@ -26,3 +26,15 @@
 .footerContent h2 {
   font-size: 2rem;
 }
+
+
+.sourceList {
+  height: 15em;
+  display: flex;
+  flex-flow: column wrap;
+  gap: 0.3em;
+  font-size: 0.95em;
+  & > *::before {
+    content: '• ';
+  }
+}
