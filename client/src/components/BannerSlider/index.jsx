@@ -7,9 +7,9 @@ import "swiper/css/pagination";
 
 export default function BannerSlider() {
   const images = [
-    "../public/img/banner1.jpg",
-    "../public/img/banner2.jpg",
-    "../public/img/banner3.png",
+    "/img/banner1.jpg",
+    "/img/banner2.jpg",
+    "/img/banner3.png",
   ];
 
   return (
