@@ -22,24 +22,33 @@ a {
 }
 
 input {
-    appearance: none;
-    outline: none;
-    background: none;
-    border: none;
-    display: block;
-    font: inherit;
+  appearance: none;
+  outline: none;
+  background: none;
+  border: none;
+  display: block;
+  font: inherit;
 }
 
 button {
-    appearance: none;
-    outline: none;
-    background: none;
-    border: none;
-    display: block;
-    font: inherit;
-    
+  appearance: none;
+  outline: none;
+  background: none;
+  border: none;
+  display: block;
+  font: inherit;
 }
 
 li {
   list-style-type: none;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: black !important;
+  font-weight: bold !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: black !important;
 }

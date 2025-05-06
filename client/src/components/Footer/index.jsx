@@ -1,57 +1,23 @@
-import { useEffect } from "react";
+import { FaChevronUp } from "react-icons/fa";
 import styles from "./Footer.module.css";
-import {
-  FaFacebookF,
-  FaTwitter,
-  FaYoutube,
-  FaInstagram,
-  FaWhatsapp,
-  FaPhone,
-} from "react-icons/fa";
 
 export default function Footer() {
-  useEffect(() => {
-    const audio = new Audio('/audios/videoplayback.weba');
-    audio.loop = true;
-
-    const playAudio = () => {
-      if (audio.paused) {
-        audio.play();
-      }
-    };
-
-    window.addEventListener('click', playAudio);
-
-    return () => {
-      window.removeEventListener('click', playAudio);
-    };
-  }, []);
+  const goBack = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
 
   return (
     <footer className={styles.footer}>
-      <div className={styles.left}>
-        <h2>ClapBoard</h2>
-        <p>Siga-nos!</p>
-        <div className={styles.socialIcons}>
-          <FaFacebookF />
-          <FaTwitter />
-          <FaYoutube />
-          <FaInstagram />
-        </div>
+      <div className={styles.back} onClick={goBack}>
+        <FaChevronUp size={40} />
+      </div>
+      <div className={styles.footerContent}>
+        <h2>Veregeur</h2>
         <p>
-          <FaPhone /> +55 99 9999-9999
-        </p>
-        <p>
-          <FaWhatsapp /> +55 99 9999-9999
-        </p>
-        <p>
-          <a href="https://www.clapboard.com">www.clapboard.com</a>
+          Desenvolvido por Felipe de Matos, Guilherme Meneses e João Vitor -
+          2TIB
         </p>
       </div>
-
-      <div className={styles.center}></div>
-
-      <div className={styles.right}></div>
     </footer>
   );
 }

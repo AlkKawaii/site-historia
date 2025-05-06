@@ -5,6 +5,7 @@ import quizzesBd from "../../json/french_revolution_quiz.json";
 import Card from "../../components/Card";
 import { useLayoutEffect, useRef } from "react";
 import { gsap } from "gsap";
+import Footer from "../../components/Footer";
 
 function Quizzes() {
   const navigate = useNavigate();
@@ -22,7 +23,6 @@ function Quizzes() {
     return () => {
       gsap.killTweensOf(sectionscard);
     };
-
   }, []);
   return (
     <>
@@ -41,6 +41,7 @@ function Quizzes() {
           );
         })}
       </section>
+      <Footer />
     </>
   );
 }
