@@ -1,0 +1,123 @@
+{
+  "characters": [
+    {
+      "id": "luis-xvi",
+      "name": "Luís XVI",
+      "birth": "1754-08-23",
+      "death": "1793-01-21",
+      "descricao_curta": "Rei da França durante a Revolução Francesa, executado pela guilhotina.",
+      "long_description": "Luís XVI foi o último rei da França antes da queda da monarquia durante a Revolução Francesa. Seu governo foi marcado por crises financeiras, tentativas frustradas de reformas e crescente insatisfação popular. Após tentar fugir do país e ser capturado, foi julgado e executado em 1793, simbolizando o fim do Antigo Regime.",
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Antoine-Fran%C3%A7ois_Callet_-_Louis_XVI%2C_roi_de_France_et_de_Navarre_%281754-1793%29%2C_rev%C3%AAtu_du_grand_costume_royal_en_1779_-_Google_Art_Project.jpg/800px-Antoine-Fran%C3%A7ois_Callet_-_Louis_XVI%2C_roi_de_France_et_de_Navarre_%281754-1793%29%2C_rev%C3%AAtu_du_grand_costume_royal_en_1779_-_Google_Art_Project.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Van_Loo%2C_Louis-Michel_-_The_Dauphin_Louis_Auguste%2C_later_Louis_XVI.jpg/800px-Van_Loo%2C_Louis-Michel_-_The_Dauphin_Louis_Auguste%2C_later_Louis_XVI.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Duplessis_-_Louis_XVI_of_France%2C_oval%2C_Versailles.jpg/800px-Duplessis_-_Louis_XVI_of_France%2C_oval%2C_Versailles.jpg"
+      ],
+      "references": [
+        "https://pt.wikipedia.org/wiki/Luís_XVI_de_França"
+      ]
+    },
+    {
+      "id": "maria-antonieta",
+      "name": "Maria Antonieta",
+      "birth": "1755-11-02",
+      "death": "1793-10-16",
+      "descricao_curta": "Rainha da França, esposa de Luís XVI, executada durante a Revolução.",
+      "long_description": "Maria Antonieta foi arquiduquesa da Áustria e rainha consorte da França como esposa de Luís XVI. Tornou-se símbolo do luxo e da impopularidade da monarquia. Durante a Revolução Francesa, foi presa, julgada e executada na guilhotina em 1793.",
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Louise_Elisabeth_Vig%C3%A9e-Lebrun_-_Marie-Antoinette_dit_%C2%AB_%C3%A0_la_Rose_%C2%BB_-_Google_Art_Project.jpg/800px-Louise_Elisabeth_Vig%C3%A9e-Lebrun_-_Marie-Antoinette_dit_%C2%AB_%C3%A0_la_Rose_%C2%BB_-_Google_Art_Project.jpg"
+      ],
+      "references": [
+        "https://pt.wikipedia.org/wiki/Maria_Antonieta"
+      ]
+    },
+    {
+      "id": "maximilien-robespierre",
+      "name": "Maximilien Robespierre",
+      "birth": "1758-05-06",
+      "death": "1794-07-28",
+      "short_description": "Líder jacobino e figura central do Reino do Terror.",
+      "long_description": "Robespierre foi advogado e político francês, líder dos jacobinos e do Comitê de Salvação Pública. Defensor da República e da igualdade, comandou o período do Terror, marcado por repressão e execuções em massa. Foi preso e executado em 1794, encerrando o Terror.",
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Robespierre.jpg/800px-Robespierre.jpg"
+      ],
+      "references": [
+        "https://pt.wikipedia.org/wiki/Maximilien_de_Robespierre"
+      ]
+    },
+    {
+      "id": "georges-danton",
+      "name": "Georges Danton",
+      "birth": "1759-10-26",
+      "death": "1794-04-05",
+      "short_description": "Revolucionário francês, líder inicial do Comitê de Salvação Pública.",
+      "long_description": "Danton foi um dos principais líderes da Revolução Francesa e do Comitê de Salvação Pública. Inicialmente defensor do Terror, acabou se opondo aos excessos e foi executado por seus antigos aliados jacobinos.",
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Anonyme_-_Portrait_de_Georges_Danton_%281759-1794%29%2C_orateur_et_homme_politique_-_P712_-_mus%C3%A9e_Carnavalet.jpg/800px-Anonyme_-_Portrait_de_Georges_Danton_%281759-1794%29%2C_orateur_et_homme_politique_-_P712_-_mus%C3%A9e_Carnavalet.jpg"
+      ],
+      "references": [
+        "https://pt.wikipedia.org/wiki/Georges_Danton"
+      ]
+    },
+    {
+      "id": "napoleao-bonaparte",
+      "name": "Napoleão Bonaparte",
+      "birth": "1769-08-15",
+      "death": "1821-05-05",
+      "short_description": "General e estadista francês, encerrou a Revolução e tornou-se imperador.",
+      "long_description": "Napoleão Bonaparte foi general revolucionário e, após o golpe de 18 Brumário, tornou-se primeiro-cônsul e depois imperador dos franceses. Implementou reformas profundas e expandiu o domínio francês pela Europa, marcando o fim da Revolução Francesa e o início da era napoleônica.",
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project.jpg/800px-Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project.jpg"
+      ],
+      "references": [
+        "https://pt.wikipedia.org/wiki/Napoleão_Bonaparte"
+      ]
+    }
+  ],
+  "groups": [
+    {
+      "id": "terceiro-estado",
+      "name": "Terceiro Estado",
+      "short_description": "Classe social composta por burgueses, artesãos e camponeses.",
+      "long_description": "O Terceiro Estado era o grupo social mais numeroso da França pré-revolucionária, formado por burgueses, trabalhadores urbanos e camponeses. Excluídos dos privilégios do clero e da nobreza, lideraram as principais reivindicações da Revolução Francesa.",
+      "references": [
+        "https://pt.wikipedia.org/wiki/Terceiro_Estado"
+      ]
+    },
+    {
+      "id": "assembleia-nacional-constituinte",
+      "name": "Assembleia Nacional Constituinte",
+      "short_description": "Órgão legislativo revolucionário francês.",
+      "long_description": "A Assembleia Nacional Constituinte foi formada em 1789 pelos representantes do Terceiro Estado e parte do clero e nobreza. Responsável por abolir privilégios feudais e aprovar a Declaração dos Direitos do Homem e do Cidadão.",
+      "references": [
+        "https://pt.wikipedia.org/wiki/Assembleia_Nacional_Constituinte_(França)"
+      ]
+    },
+    {
+      "id": "convencao-nacional",
+      "name": "Convenção Nacional",
+      "short_description": "Assembleia revolucionária que proclamou a República Francesa.",
+      "long_description": "A Convenção Nacional foi o órgão legislativo da França revolucionária entre 1792 e 1795, responsável pela abolição da monarquia e proclamação da Primeira República Francesa.",
+      "references": [
+        "https://pt.wikipedia.org/wiki/Convenção_Nacional"
+      ]
+    },
+    {
+      "id": "jacobinos",
+      "name": "Jacobinos",
+      "short_description": "Grupo político radical da Revolução Francesa.",
+      "long_description": "Os jacobinos foram um clube político revolucionário francês, defensores de reformas radicais, da República e da centralização do poder. Lideraram o período do Terror sob Robespierre.",
+      "references": [
+        "https://pt.wikipedia.org/wiki/Jacobinos"
+      ]
+    },
+    {
+      "id": "sans-culottes",
+      "name": "Sans-culottes",
+      "short_description": "Classe popular urbana revolucionária.",
+      "long_description": "Os sans-culottes eram trabalhadores urbanos e pequenos comerciantes que apoiaram ativamente a Revolução Francesa, sendo fundamentais nas insurreições populares e na radicalização do movimento.",
+      "references": [
+        "https://pt.wikipedia.org/wiki/Sans-culottes"
+      ]
+    }
+  ]
+}

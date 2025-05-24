@@ -1,0 +1,81 @@
+
+.BiographySect {
+  display: flex;
+  gap: 2rem;
+  background: #f9f9f9;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+  width: 80vw;
+  margin: auto;
+}
+
+.imgAndName {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.BiographyImage {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 12px;
+  transition: transform 0.3s;
+}
+
+.BiographyImage:hover {
+  transform: scale(1.05);
+}
+
+.BiographyName {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #2d2d2d;
+  text-align: center;
+}
+
+.textArea {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.BiographyText {
+  font-size: 1.3vw;
+  color: #444;
+  line-height: 1.7;
+  margin: 0;
+}
+
+.quickInformations {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.quickInformation li a {
+  color: #007bff;
+  font-weight: bold;
+}
+.quickInformation li a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 700px) {
+  .BiographySect {
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    gap: 1.5rem;
+  }
+  .BiographyText {
+    font-size: 1.2rem;
+  }
+  .BiographyImage {
+    width: 200px;
+    height: 200px;
+  }
+}

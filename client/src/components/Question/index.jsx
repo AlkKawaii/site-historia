@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useState } from "react";
 import styles from "./Questions.module.css";
 import Popup from "../Popup";
+import quizImg  from "../../../public/img/question.png"
 
 function Questions({ contentArr }) {
   const [currentQuestion, setCurrentQuestion] = useState(0);
@@ -86,7 +87,7 @@ function Questions({ contentArr }) {
       <h2>
         {currentQuestion + 1} - {contentArr[currentQuestion].question}
       </h2>
-      <img src="https://fibranetbrasil.com.br/images/duvidas.png" alt="" />
+      <img src={quizImg} alt="" />
       <h3>
         Tempo restante: <strong>{timeLeft}</strong>
       </h3>

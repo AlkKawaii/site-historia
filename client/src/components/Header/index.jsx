@@ -65,6 +65,14 @@ export default function Header() {
                             Quiz
                         </Link>
                     </li>
+                    <li>
+                        <Link
+                            to='/biographies'
+                            target='_blank'
+                            onClick={() => setMenuOpen(false)}>
+                            Biografias
+                        </Link>
+                    </li>
                 </ul>
             </nav>
         </>
