@@ -1,28 +1,28 @@
-import { useState } from "react";
-import { useNavigate } from "react-router-dom";
-import styles from "./Popup.module.css";
+import { useState } from 'react';
+import { createPortal } from 'react-dom';
+import styles from './Popup.module.css';
+import { IoCloseOutline } from 'react-icons/io5';
 
-function Popup({ children }) {
-
-  const [isVisible, setIsVisible] = useState(true);
-  const navigate = useNavigate();
+function Popup({ children, onClose, isOpen }) {
+  const [isVisible, setIsVisible] = useState(isOpen || true);
 
   function close() {
     setIsVisible(false);
-    navigate("/quizzes"); 
+    onClose?.();
   }
 
   if (!isVisible) return null;
 
-  return (
-    <div className={styles.popupContainer}>
-      <div className={styles.popup}>
-        <button className={styles.close} onClick={close}>
-          ✖
-        </button>
+  return createPortal(
+    <div className={styles.popupContainer} onClick={close}>
+      <button className={styles.close}>
+        <IoCloseOutline />
+      </button>
+      <div className={styles.popup} onClick={(e) => e.stopPropagation()}>
         {children}
       </div>
-    </div>
+    </div>,
+    document.body
   );
 }
 

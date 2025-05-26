@@ -1,7 +1,7 @@
-import { useCallback, useEffect, useState } from "react";
-import styles from "./Questions.module.css";
-import Popup from "../Popup";
-import quizImg  from "../../../public/img/question.png"
+import { useCallback, useEffect, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
+import styles from './Questions.module.css';
+import Popup from '../Popup';
 
 function Questions({ contentArr }) {
   const [currentQuestion, setCurrentQuestion] = useState(0);
@@ -10,6 +10,7 @@ function Questions({ contentArr }) {
   const [quizFinished, setQuizFinished] = useState(false);
   const [wrongAnswers, setWrongAnswers] = useState([]);
   const [rightAnswers, setRightAnswers] = useState([]);
+  const navigate = useNavigate();
 
   const handleTimeout = useCallback(() => {
     setPoints((prevPoints) => prevPoints - 1);
@@ -62,45 +63,63 @@ function Questions({ contentArr }) {
     }
   };
 
-  if (quizFinished) {
-    return (
-      <Popup>
-        <h2>Pontuação final: {points}</h2>
-        <h2>Respostas erradas: </h2>
-        {wrongAnswers.map((wrongAnswer) => (
-          <div key={wrongAnswer.position} className={styles.wrongAnswer}>
-            <p>❌ - {wrongAnswer.question}</p>
-          </div>
-        ))}
-        <h2>Respostas certas: </h2>
-        {rightAnswers.map((rightAnswer) => (
-          <div key={rightAnswer.position} className={styles.rightAnswer}>
-            <p>✅ - {rightAnswer.question}</p>
-          </div>
-        ))}
-      </Popup>
-    );
-  }
+  // if (quizFinished) {
+  //   return (
+  //   );
+  // }
 
   return (
-    <div className={styles.quizBox}>
-      <h2>
-        {currentQuestion + 1} - {contentArr[currentQuestion].question}
-      </h2>
-      <img src={quizImg} alt="" />
-      <h3>
-        Tempo restante: <strong>{timeLeft}</strong>
-      </h3>
-      <div className={styles.question}>
-        {contentArr[currentQuestion].options.map((question, index) => {
-          return (
-            <button key={index} onClick={handleQuestions}>
-              {question}
-            </button>
-          );
-        })}
+    <>
+      {quizFinished && (
+        <Popup onClose={() => navigate('/quizzes')}>
+          <div className={styles.popup}>
+            <h2>Pontuação final: {points}</h2>
+            {wrongAnswers.length > 0 && (
+              <>
+                <h2>Respostas erradas: </h2>
+                {wrongAnswers.map((wrongAnswer) => (
+                  <div
+                    key={wrongAnswer.position}
+                    className={styles.wrongAnswer}>
+                    <p>❌ - {wrongAnswer.question}</p>
+                  </div>
+                ))}
+              </>
+            )}
+            {rightAnswers.length > 0 && (
+              <>
+                <h2>Respostas certas: </h2>
+                {rightAnswers.map((rightAnswer) => (
+                  <div
+                    key={rightAnswer.position}
+                    className={styles.rightAnswer}>
+                    <p>✅ - {rightAnswer.question}</p>
+                  </div>
+                ))}
+              </>
+            )}{' '}
+          </div>
+        </Popup>
+      )}
+      <div className={styles.quizBox}>
+        <h2>
+          {currentQuestion + 1} - {contentArr[currentQuestion].question}
+        </h2>
+        <img src='/img/question.png' alt='' />
+        <h3>
+          Tempo restante: <strong>{timeLeft}</strong>
+        </h3>
+        <div className={styles.question}>
+          {contentArr[currentQuestion].options.map((question, index) => {
+            return (
+              <button key={index} onClick={handleQuestions}>
+                {question}
+              </button>
+            );
+          })}
+        </div>
       </div>
-    </div>
+    </>
   );
 }
 

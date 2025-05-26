@@ -70,3 +70,9 @@
   font-size: 18px;
   font-weight: bold;
 }
+
+.popup {
+  padding: 20px;
+  border-radius: 12px;
+  background-color: white;
+}

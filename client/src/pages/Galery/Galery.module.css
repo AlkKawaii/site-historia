@@ -1,0 +1,8 @@
+.container {
+    padding: 1em;
+    & h1 {
+        font-size: 3em;
+        margin-bottom: .5em;
+        font-family: var(--font-title);
+    }
+}

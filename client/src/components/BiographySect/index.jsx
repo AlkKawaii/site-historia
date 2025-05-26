@@ -33,7 +33,7 @@ function BiographySect({
             <p className={styles.quickInformationText}>{death_date}</p>
           </div>
           <div className={styles.quickInformation}>
-            <h3 className={styles.quickInformationTitle}>Referençias:</h3>
+            <h3 className={styles.quickInformationTitle}>Referência:</h3>
             <ul>
               {references_arr.map((reference, index) => {
                 const domain =
