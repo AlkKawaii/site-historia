@@ -2,13 +2,11 @@ import styles from "./Home.module.css";
 import TextArea from "../../components/TextArea";
 import SmallTextArea from "../../components/SmallTextArea";
 import BannerSlider from "../../components/BannerSlider";
-import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 
 export default function Home() {
   return (
     <>
-      <Header />
       <main className={styles.container}>
         <BannerSlider />
         <div className={styles.textAreaContainer}>

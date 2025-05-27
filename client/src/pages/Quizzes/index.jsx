@@ -1,6 +1,5 @@
 import { useNavigate } from "react-router-dom";
 import styles from "./Quizzes.module.css";
-import Header from "../../components/Header";
 import quizzesBd from "../../json/french_revolution_quiz.json";
 import Card from "../../components/Card";
 import { useLayoutEffect, useRef } from "react";
@@ -26,7 +25,6 @@ function Quizzes() {
   }, []);
   return (
     <>
-      <Header />
       <section ref={sectioncardRef} className={styles.quizzes}>
         {quizzesBd.map((element) => {
           return (

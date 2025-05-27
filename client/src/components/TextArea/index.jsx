@@ -8,7 +8,7 @@ export default function TextArea({ direction, title, content, imgSrc }) {
       <section className={styles.parentContainer}>
         <div className={styles.container}>
           <div className={styles.textContainer}>
-            <h2>{title}</h2>
+            <h2 className={styles.title}>{title}</h2>
             <p>{content}</p>
           </div>
           <div className={styles.imageContainer}>
@@ -25,7 +25,7 @@ export default function TextArea({ direction, title, content, imgSrc }) {
             <img src={imgSrc} alt="Image" />
           </div>
           <div className={styles.textContainer}>
-            <h2>{title}</h2>
+            <h2 className={styles.title}>{title}</h2>
             <p>{content}</p>
           </div>
         </div>

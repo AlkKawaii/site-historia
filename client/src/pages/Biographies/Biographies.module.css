@@ -1,12 +1,16 @@
-.Biographies{
+.container {
+  margin-top: 80px;
+}
+.Biographies {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 2rem;
+  padding: 1.5rem;
   gap: 2rem;
 }
 .titles {
+  font: var(--font-title);
   font-size: 2.5rem;
   color: #2d2d2d;
   margin-bottom: 1rem;

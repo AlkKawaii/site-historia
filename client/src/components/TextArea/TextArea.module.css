@@ -48,3 +48,7 @@
   border-radius: 0.5rem;
   object-fit: cover;
 }
+
+.title {
+  font: var(--font-title);
+}

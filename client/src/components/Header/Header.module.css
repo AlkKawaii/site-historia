@@ -1,12 +1,18 @@
 .header {
   display: flex;
+  width: 100%;
+  top: 0;
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-  background-color: #d9d9d9;
-  border-bottom: 1px solid black;
-  position: relative;
-  z-index: 1;
+  background-color: var(--background-box-color);
+  position: fixed;
+  z-index: 1000000000000000000000;
+  box-shadow: var(--box-shadow);
+  transition: top 0.2s;
+  &.hidden {
+    top: -60px;
+  }
 }
 
 .left {
@@ -21,6 +27,7 @@
 }
 
 .title {
+  font: var(--font-title);
   font-size: 1.5rem;
   font-weight: bold;
 }
@@ -62,4 +69,23 @@
   color: black;
   font-size: 1.2rem;
   font-weight: bold;
+}
+
+.arrow {
+  position: absolute;
+  background-color: var(--background-box-color);
+  box-shadow: var(--box-shadow);
+  bottom: -41px;
+  border-bottom-left-radius: var(--border-radius);
+  border-bottom-right-radius: var(--border-radius);
+  cursor: pointer;
+  & > * {
+    transition: scale 0.1s;
+  }
+  &:hover > * {
+    scale: 1.25;
+  }
+  &:active > * {
+    scale: 1;
+  }
 }

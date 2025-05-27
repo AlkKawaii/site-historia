@@ -12,7 +12,7 @@ export default function SmallTextArea({ button, buttonWidth, title, content }) {
     <section className={styles.parentContainer}>
       <div className={styles.container}>
         <div className={styles.textContainer}>
-          <h2>{title}</h2>
+          <h2 className={styles.title}>{title}</h2>
           <p>{content}</p>
         </div>
         {buttonComponent}
