@@ -5,8 +5,9 @@ import { HiMenu, HiChevronUp } from 'react-icons/hi';
 
 export default function Header() {
   const [MenuOpen, setMenuOpen] = useState(false);
-  const [hiddenHeader, setHiddenHeader] = useState(true);
+  const [hiddenHeader, setHiddenHeader] = useState(false);
   const menuRef = useRef(null);
+  const headerRef = useRef(null);
 
   const revertMenuState = () => {
     setMenuOpen((prev) => !prev);
@@ -17,6 +18,11 @@ export default function Header() {
       if (menuRef.current && !menuRef.current.contains(event.target)) {
         setMenuOpen(false);
       }
+      if (headerRef.current && !headerRef.current.contains(event.target)) {
+        setHiddenHeader(true);
+      }
+      console.log('a');
+      
     }
     document.addEventListener('mousedown', handleOutsideClicks);
     return () => {
@@ -26,7 +32,9 @@ export default function Header() {
 
   return (
     <>
-      <header className={`${styles.header} ${hiddenHeader && styles.hidden}`}>
+      <header
+        ref={headerRef}
+        className={`${styles.header} ${hiddenHeader && styles.hidden}`}>
         <Link to='/' className={styles.left}>
           <img
             src='/svg/logo.svg'
