@@ -1,0 +1,32 @@
+[
+  {
+    "id": "quinze",
+    "title": "Golpe de 18 Brumário",
+    "position": [3140, 2811],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Bouchot_-_Le_general_Bonaparte_au_Conseil_des_Cinq-Cents.jpg/1126px-Bouchot_-_Le_general_Bonaparte_au_Conseil_des_Cinq-Cents.jpg?20201118032220"
+  },
+  {
+    "id": "tres",
+    "title": "Queda da Bastilha",
+    "position": [3201, 2994],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Prise_de_la_Bastille.jpg/1184px-Prise_de_la_Bastille.jpg"
+  },
+  {
+    "id": "seis",
+    "title": "Declaração dos Direitos do Homem e do Cidadão",
+    "position": [3231, 2745],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Declaration_of_the_Rights_of_Man_and_of_the_Citizen_in_1789.jpg/960px-Declaration_of_the_Rights_of_Man_and_of_the_Citizen_in_1789.jpg?20200704123053"
+  },
+  {
+    "id": "dez",
+    "title": "Proclamação da República",
+    "position": [3195, 2933],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Coat_of_arms_of_the_French_First_Republic.svg/675px-Coat_of_arms_of_the_French_First_Republic.svg.png?20181027144955"
+  },
+  {
+    "id": "onze",
+    "title": "Julgamento e Execução de Luís XVI",
+    "position": [3068, 2999],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Execution_of_Louis_XVI.jpg/1199px-Execution_of_Louis_XVI.jpg?20240515211026"
+  }
+]

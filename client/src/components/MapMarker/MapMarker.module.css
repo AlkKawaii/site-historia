@@ -1,0 +1,9 @@
+.tooltip {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.image {
+  width: 100px;
+  height: 100px;
+}
