@@ -1,4 +1,3 @@
-// import style from "./MapImage.module.css";
 import MapMarker from "../MapMarker";
 import { MapContainer, ImageOverlay, useMap, ZoomControl } from "react-leaflet";
 import L from "leaflet";

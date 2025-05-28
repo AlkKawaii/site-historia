@@ -1,6 +1,5 @@
 import style from "./MapMarker.module.css";
 import { Marker, Tooltip } from "react-leaflet";
-import { useNavigate } from "react-router-dom";
 import L from "leaflet";
 
 const customIcon = L.icon({
