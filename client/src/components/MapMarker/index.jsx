@@ -20,7 +20,7 @@ export default function MapMarker({ id, position, title, image }) {
       position={position}
       icon={customIcon}
       eventHandlers={{
-        click: () => window.open(`/timeline#${id}`, "_blank"),
+        click: () => window.open(`/timeline#${id}`),
       }}
     >
       <Tooltip direction="top" offset={[0, -15]} opacity={1} permanent={false}>
